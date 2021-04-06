@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/reset.css">
+    
+    <title>sin titulo</title>
+</head>
+<body background="fondo.gif">
+    <div id="mensaje"> </div>
+   <form action="#" id="formulario" method="post">
+
+       <ul>
+        <li>
+            <label for="nombre">nombre : </label>
+            <p><input class="form-control input-sm" id="nombre" type="string " placeholder="juan carlos" required></p>
+        </li>
+        <li>
+            <label for="apellidos">apellidos : </label>
+            <p><input class="form-control input-sm" id="apellidos" type="string" placeholder="bodoque" required></p>
+        </li>
+        <li>
+            <label for="rut">rut : </label>
+            <p><input type="text" name="rut" size="20" required  pattern="[1-9][0-9]{6,7}[-][0-9kK]" placeholder="12345678-9" title="RUT sin puntos, con guión y dígito verificador" /></p>
+        </li>
+        <li>
+            <label for="email">email : </label>
+            <p><input class="form-control input-sm" id="email" type="email" placeholder="correo@mail.com" required></p>
+        </li>
+        <li>
+            <label for="numero">numero : </label>
+            <p><input class="form-control input-sm" id="numero" type="number" placeholder="987654321" maxlength="9" required></p>
+        </li>
+        <li>
+            <label for="inputdefault"><input type="checkbox" value="">python</label>
+            <label for="inputdefault"><input type="checkbox" value="">java </label>
+            <label for="inputdefault"><input type="checkbox" value="">typeScript</label>
+            <label for="inputdefault"><input type="checkbox" value="">PHP</label>
+            <label for="inputdefault"><input type="checkbox" value="">C#</label>
+            <label for="inputdefault"><input type="checkbox" value="">C++</label>
+        </li>
+        <li>
+            <label for="inputdefault">conocimiento de programacion: </label>
+            <label for="inputdefaul"><input type="range"></label>
+        </li>
+        <div id="texto"><label>¿Cuantos años de experiencia laboral tiene?</label></div>
+        <div class="radio">
+            <label><input type="radio" name="optradio" required >1</label>
+        </div>
+        <div class="radio">
+            <label><input type="radio" name="optradio">2</label>
+        </div>
+        <div class="radio ">
+            <label><input type="radio" name="optradio" >3</label>
+        </div>
+        <div class="radio ">
+            <label><input type="radio" name="optradio" >4</label>
+        </div>
+        <div class="radio ">
+            <label><input type="radio" name="optradio" >5</label>
+        </div>
+        <div id="texto"><label>Una descripción breve acerca de usted:</label></div>
+        <li>
+            
+            <textarea class="form-control" cols="50" rows="8" id="comment" maxlength="300" required></textarea>
+            
+        </li>
+        <li>
+        <button id="inputsubmit" type="submit" class="formsubmit">Enviar</button>
+        
+        <button id="inputreset" type="reset" class="btn btn-default">Borrar datos</button> 
+        </li>
+        </ul>
+    </form>
+    <script src="js/otronombre.js"></script>
+    
+</body>
+</html>

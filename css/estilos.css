@@ -1,0 +1,16 @@
+
+form#formulario{
+    font-size: 25px;
+   color: rgb(0, 0, 0);
+    text-align: center;
+    float: center;
+}
+div#texto{
+    margin-top: 5px;
+    
+}
+#mensaje{
+    display: none;
+    font-size:  250px;
+    float:center;
+}
