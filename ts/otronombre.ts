@@ -5,7 +5,7 @@ formulario.addEventListener("submit",function(evento:any){
     
     formulario.style.display="none";
     mensaje.style.display="block";
-    mensaje.innerHTML="Bienvenido";
+    mensaje.innerHTML="hemos resibido sus datos, pronto nos estaremos comunicando con usted";
     mensaje.style.color="#ff0000";
     evento.preventDefault();
 
